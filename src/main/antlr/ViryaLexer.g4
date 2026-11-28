@@ -8,20 +8,28 @@ package antlr4;
 INT : 'int';
 STRING : 'string';
 BOOLEAN : 'bool';
+VOID : 'void';
 
 // Flow
 IF : 'if';
 ELSE : 'else';
 WHILE : 'while';
 DO : 'do';
-ELSEIF : 'elseif';
+ELSEIF : 'else if';
+
+// Visibility
+PRIVATE : 'private';
+PUBLIC : 'public';
 
 // Thingies
 SCOPE_OPEN : '{';
 SCOPE_CLOSE : '}';
+PAR_OPEN : '(';
+PAR_CLOSE : ')';
 INHERIT : '<';
 END_STATEMENT : ';';
 ASSIGN : '=';
+SEPERATE : ',';
 
 // Instant values
 BOOL_VAL : TRUE | FALSE;

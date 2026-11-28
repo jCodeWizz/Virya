@@ -15,7 +15,7 @@ public class Utils {
         TokenStream tokenStream = new CommonTokenStream(lexer);
         ViryaParser parser = new ViryaParser(tokenStream);
 
-        return parser.assignment();
+        return parser.file();
     }
 
     public static List<Integer> getTokens(String input) {
